@@ -1,0 +1,77 @@
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+
+/* Font-Face */
+@font-face {
+    font-family: "ember-black-cond";
+    src: url("fuentes-web/emberly/Emberly-BlackCondensed.ttf");
+}
+
+
+
+/* Barra de Navegación */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    z-index: 10000;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+/* Banner */
+
+.ban_2 {
+    display: flex;
+}
+
+.gif_1 {
+    height: 100%;
+    width: 35%;
+}
+
+.carousel-control-prev {
+    background-color: black;
+}
